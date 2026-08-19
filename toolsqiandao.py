@@ -39,7 +39,7 @@ def get_safe_log(text):
 # T00ls 账户
 USERNAME   = getenv("T00LS_USERNAME")
 PASSWORD   = getenv("T00LS_PASSWORD")
-QUESTIONID = getenv("T00LS_QUESTIONID", "0")
+QUESTIONID = getenv("T00LS_QUESTIONID", "1")
 ANSWER     = getenv("T00LS_ANSWER", "")
 
 # 钉钉机器人（只保留这两个）
